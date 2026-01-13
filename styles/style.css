@@ -6,6 +6,11 @@
   font-style: normal;
 }
 /* Default design */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .color1{
     color: #131313;
 }
@@ -22,7 +27,7 @@
 .navbar{
     justify-content: space-between;
     align-items: center;
-    padding :1px 90px 10px 90px;
+    padding :20px 90px 10px 90px;
 }
 .logo{
     font-size: 1.5rem;
@@ -61,10 +66,19 @@
 }
 @media screen and (max-width: 840px){
     .navbar{
-        padding :1px 20px 10px 20px;
+        padding :30px 20px 10px 20px;
+    }
+    .logo{
+        margin-bottom: 20px;
     }
     .display-flex{
         flex-direction: column;
         align-items: center;
+    }
+    .banner-text{
+        padding: 0px 10px;
+    }
+    .banner-text h1{
+        
     }
 }
