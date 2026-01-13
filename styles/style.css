@@ -5,6 +5,7 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Default design */
 .color1{
     color: #131313;
 }
@@ -17,19 +18,51 @@
 .display-flex, .nav-links{
     display: flex;
 }
-
+/* navbar design */
 .navbar{
     justify-content: space-between;
     align-items: center;
-    padding :20px 90px 50px 90px;
+    padding :1px 90px 10px 90px;
+}
+.logo{
+    font-size: 1.5rem;
 }
 .nav-links{
     gap: 40px;
 }
 .nav-links a{
     text-decoration: none;
+    font-size: 1rem;
 }
-@media screen and (max-width: 732px){
+
+/* Banner design */
+.banner-text{
+    text-align: center;
+    padding: 0px 330px;
+}
+.banner-text h1{
+    font-size: 4.125rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.banner-text p{
+    margin: 20px 0;
+    font-size: 1rem;
+    line-height: 26px;
+}
+.btn{
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF900E;
+}
+@media screen and (max-width: 840px){
+    .navbar{
+        padding :1px 20px 10px 20px;
+    }
     .display-flex{
         flex-direction: column;
         align-items: center;
